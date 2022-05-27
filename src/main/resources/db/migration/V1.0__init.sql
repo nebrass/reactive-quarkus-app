@@ -1,4 +1,4 @@
-create sequence hibernate_sequence START WITH 1 INCREMENT BY 1;
+CREATE SEQUENCE hibernate_sequence START WITH 1 INCREMENT BY 1;
 
 CREATE TABLE books
 (
@@ -13,6 +13,8 @@ CREATE TABLE books
 );
 
 INSERT INTO books (title, isbn, author, price)
-values ('Pairing Apache Shiro and Java EE 7', '978-1-365-12404-4', 'Nebrass Lamouchi', 0);
+VALUES ('Pairing Apache Shiro and Java EE 7', '978-1-365-12404-4', 'Nebrass Lamouchi', 0);
 INSERT INTO books (title, isbn, author, price)
-values ('Playing with Java Microservices on Kubernetes and OpenShift', '9782956428510', 'Nebrass Lamouchi', 9.18);
+VALUES ('Playing with Java Microservices on Kubernetes and OpenShift', '9782956428510', 'Nebrass Lamouchi', 9.18);
+INSERT INTO books (title, isbn, author, price)
+VALUES ('Pro Java Microservices with Quarkus and Kubernetes', '9781484271698', 'Nebrass Lamouchi', 65);
